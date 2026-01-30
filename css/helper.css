@@ -64,6 +64,10 @@
     margin-bottom: 90px;
 }
 
+.mb-small {
+    margin-bottom: 40px;
+}
+
 /* Text Styling */
 
 h1 {
