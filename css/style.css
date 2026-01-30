@@ -151,6 +151,14 @@ nav>ul>li>a:current {
     margin-top: 40px;
 }
 
+.mt-large {
+    margin-top: 80px;
+}
+
+.gap-item {
+    gap: 20px;
+}
+
 .space-between {
     justify-content: space-between;
 }
@@ -178,4 +186,43 @@ ul>li>a {
     font-size: 16px;
     font-weight: 400;
     text-decoration: none;
+}
+
+section {
+    margin: 0 5%;
+}
+
+.box-img {
+    background-color: #1C1C22;
+    padding: 25px 35px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500px;
+    border-radius: 5px;
+    animation: cubic-bezier(0.6, -0.28, 0.735, 0.045);
+    transition: 0.3s;
+}
+
+.box-img:hover {
+    border-radius: 25px;
+    border: 1px solid #F0F2F5;
+}
+
+div[class='box-img']>img {
+    width: 100px;
+}
+
+div>p {
+    margin: 0;
+    margin-top: 15px;
+}
+
+.gap-item {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+.mb-large {
+    margin-bottom: 90px;
 }
