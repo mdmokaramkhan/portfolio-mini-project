@@ -50,6 +50,20 @@
     margin-top: 80px;
 }
 
+.gap-item {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+.gap-item {
+    gap: 20px;
+}
+
+.mb-large {
+    margin-bottom: 90px;
+}
+
 /* Text Styling */
 
 h1 {

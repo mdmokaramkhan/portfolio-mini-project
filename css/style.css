@@ -6,10 +6,6 @@ body {
     color: #F0F2F5;
 }
 
-.gap-item {
-    gap: 20px;
-}
-
 .nav {
     position: sticky;
     top: 0;
@@ -194,12 +190,8 @@ div>p {
     margin-top: 15px;
 }
 
-.gap-item {
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    gap: 20px;
-}
 
-.mb-large {
-    margin-bottom: 90px;
+.vl {
+    border-left: 1px solid #B9BBBC;
+    height: 100px;
 }
