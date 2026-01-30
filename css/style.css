@@ -12,6 +12,12 @@ h1 {
     font-weight: bold;
 }
 
+h4 {
+    margin: 0;
+    font-size: 48px;
+    font-weight: bold;
+}
+
 h5 {
     margin: 0;
     font-size: 32px;
@@ -75,4 +81,66 @@ nav>ul>li>a:current {
     box-shadow: 0 5px 5px #f0f2f52f;
 }
 
+.outline-button {
+    margin: 0 5px;
+    background-color: transparent;
+    height: max(40px, 1vw);
+    color: #F0F2F5;
+    font-size: min(5vw, 0.8em);
+    font-weight: 400;
+    border: 1.5px solid #F0F2F5;
+    border-radius: 50px;
+    cursor: pointer;
+    padding: 0 20px;
+}
 
+.outline-button:hover {
+    background-color: rgba(211, 211, 211, 0.218);
+}
+
+.main {
+    padding: 6% 20%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.avatar {
+    vertical-align: middle;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+}
+
+.txt-gradient {
+    background: #B16CEA;
+    background: linear-gradient(to right, #B16CEA 0%, #FF5E69 49%, #FF8A56 80%, #FFA84B 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.desc {
+    margin: 0;
+    margin-top: 5px;
+    color: #B9BBBC;
+    word-break: keep-all;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.mt-40 {
+    margin-top: 40px;
+}
