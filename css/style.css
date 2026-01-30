@@ -41,6 +41,18 @@ nav>ul>li>a {
     font-size: 16px;
     font-weight: 400;
     text-decoration: none;
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+nav>ul>li>a:hover {
+    color: #FF8A56;
+    transform: translateY(-2px);
+}
+
+nav>ul>li>a.active {
+    color: #FF8A56;
+    font-weight: 600;
 }
 
 nav>ul>li>a:current {
@@ -138,14 +150,14 @@ nav>ul>li>a:current {
 
 footer {
     background-color: #161513;
-    position: fixed;
+    position: static;
     bottom: 0;
     left: 0;
     right: 0;
     margin: 5% 0 0 0;
     padding: 0 5% 20px 5%;
     border-top: 1px solid #B9BBBC;
-    z-index: 10;
+    /* z-index: 10; */
 }
 
 ul>li {
@@ -194,4 +206,46 @@ div>p {
 .vl {
     border-left: 1px solid #B9BBBC;
     height: 100px;
+}
+
+form {
+    margin-left: 40px;
+}
+
+form>label {
+    font-size: 16px;
+    font-weight: 600;
+    padding: 15px 10px;
+}
+
+form>input {
+    width: 40vw;
+    background-color: #1C1C22;
+    padding: 15px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    color: #F0F2F5;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+form>textarea {
+    background-color: #1C1C22;
+    border: none;
+    padding: 15px 20px;
+    font-size: 16px;
+}
+
+.bg-gradient {
+    background: #B16CEA;
+    background: linear-gradient(to right, #B16CEA 0%, #FF5E69 49%, #FF8A56 80%, #FFA84B 100%);
+    background-clip: border-box;
+    -webkit-background-clip: border-box;
+}
+
+.txt-light {
+    color: #F0F2F5;
+    font-weight: 500;
+    font-size: 16px;
 }
