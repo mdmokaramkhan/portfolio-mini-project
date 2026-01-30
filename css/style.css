@@ -6,28 +6,8 @@ body {
     color: #F0F2F5;
 }
 
-h1 {
-    margin: 0;
-    font-size: 72px;
-    font-weight: bold;
-}
-
-h4 {
-    margin: 0;
-    font-size: 48px;
-    font-weight: bold;
-}
-
-h5 {
-    margin: 0;
-    font-size: 32px;
-    font-weight: bold;
-}
-
-h6 {
-    margin: 0;
-    font-size: 24px;
-    font-weight: bold;
+.gap-item {
+    gap: 20px;
 }
 
 .nav {
@@ -130,6 +110,24 @@ nav>ul>li>a:current {
     -webkit-text-fill-color: transparent;
 }
 
+.item {
+    padding: 25px 25px;
+    border-bottom: 1px solid #B9BBBC;
+    transition: .5s;
+    animation: ease-in-out;
+}
+
+.item:hover {
+    border-bottom: 1px solid #FF8A56;
+}
+
+.title {
+    margin: 0;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
 .desc {
     margin: 0;
     margin-top: 5px;
@@ -137,33 +135,8 @@ nav>ul>li>a:current {
     word-break: keep-all;
 }
 
-.row {
-    display: flex;
-    flex-direction: row;
-}
-
-.column {
-    display: flex;
-    flex-direction: column;
-}
-
-.mt-20 {
-    margin-top: 20px;
-}
-
-.mt-40 {
-    margin-top: 40px;
-}
-
-.mt-large {
-    margin-top: 80px;
-}
-
-.gap-item {
-    gap: 20px;
-}
-
-.space-between {
+.list-item {
+    gap: 10px;
     justify-content: space-between;
 }
 
