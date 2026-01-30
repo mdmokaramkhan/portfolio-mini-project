@@ -45,6 +45,10 @@ h6 {
     z-index: 1;
 }
 
+.nav-scrolled {
+    border-bottom: .5px solid #e8e8e8;
+}
+
 nav>ul {
     display: flex;
     flex-grow: 1;
