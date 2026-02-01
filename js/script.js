@@ -8,3 +8,10 @@ window.onscroll = function () {
         myNav.classList.remove("nav-scrolled");
     }
 };
+
+// Mobile nav toggle
+var navBtn = document.querySelector(".nav-toggle");
+navBtn.onclick = function () {
+    myNav.classList.toggle("nav-open");
+    navBtn.textContent = myNav.classList.contains("nav-open") ? "✕" : "☰";
+};
